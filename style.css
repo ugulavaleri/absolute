@@ -1,0 +1,19 @@
+*{
+	font-family:'BPG Nateli';
+	box-sizing: border-box;
+}
+.background-blue-side{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 250px;
+	background: #0A22F4;
+}
+.background-blue-side h4,a{
+	text-decoration: none;
+	font-size: 33px;
+	margin-left: 115px;
+	margin-top: 50px;
+	color: white;
+}
