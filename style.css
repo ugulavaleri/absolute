@@ -1,3 +1,7 @@
+body{
+	padding-top: 160px;
+	padding-left: 105px;
+}
 *{
 	font-family:'BPG Nateli';
 	box-sizing: border-box;
@@ -16,4 +20,49 @@
 	margin-left: 115px;
 	margin-top: 50px;
 	color: white;
+}
+#box1{
+	margin-right: 50px;
+}
+#box2{
+	margin-right: 50px;
+}
+.image{
+	width: 370px;
+}
+.container{
+	display: inline-block;
+	position: relative;	
+	cursor: pointer;
+}
+.container:hover{
+	top: -12px;
+}
+.title-div{
+	position: absolute;
+	bottom: 12px;
+	left:8px;
+	right:8px;
+	height: 90px;
+	border-radius: 10px;
+	background-color: #ffffffe9;
+	padding: 3px 20px;
+}
+.title{
+	font-size: 17px;
+	width:300px;
+}
+.nav-div{
+	margin-left: 700px;
+	margin-top: 150px;
+}
+.nav-link{
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 5px 25px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
 }
